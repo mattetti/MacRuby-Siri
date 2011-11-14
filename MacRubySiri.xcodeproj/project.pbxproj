@@ -14,6 +14,16 @@
 		2BBA4A0614717C560032CF49 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A0414717C560032CF49 /* MainMenu.xib */; };
 		2BBA4A0914717C560032CF49 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A0814717C560032CF49 /* rb_main.rb */; };
 		2BBA4A0B14717C560032CF49 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A0A14717C560032CF49 /* AppDelegate.rb */; };
+		2BBA4A1E14717D2D0032CF49 /* Aaron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1414717D2D0032CF49 /* Aaron.jpg */; };
+		2BBA4A1F14717D2D0032CF49 /* Chad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1514717D2D0032CF49 /* Chad.jpg */; };
+		2BBA4A2014717D2D0032CF49 /* Hampton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1614717D2D0032CF49 /* Hampton.jpg */; };
+		2BBA4A2114717D2D0032CF49 /* Leah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1714717D2D0032CF49 /* Leah.jpg */; };
+		2BBA4A2214717D2D0032CF49 /* Matz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1814717D2D0032CF49 /* Matz.jpg */; };
+		2BBA4A2314717D2D0032CF49 /* menu-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1914717D2D0032CF49 /* menu-logo.png */; };
+		2BBA4A2414717D2D0032CF49 /* Rich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1A14717D2D0032CF49 /* Rich.jpg */; };
+		2BBA4A2514717D2D0032CF49 /* ruby-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1B14717D2D0032CF49 /* ruby-logo.png */; };
+		2BBA4A2614717D2D0032CF49 /* ruby.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1C14717D2D0032CF49 /* ruby.icns */; };
+		2BBA4A2714717D2D0032CF49 /* Sansonetti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A1D14717D2D0032CF49 /* Sansonetti.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +40,23 @@
 		2BBA49EF14717C560032CF49 /* MacRubySiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRubySiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBA49F314717C560032CF49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2BBA49F514717C560032CF49 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		2BBA49FC14717C560032CF49 /* MacRubySiri-Info.plist */ = {isa = PBXFileReference; path = "MacRubySiri-Info.plist"; sourceTree = "<group>"; };
+		2BBA49FC14717C560032CF49 /* MacRubySiri-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacRubySiri-Info.plist"; sourceTree = "<group>"; };
 		2BBA49FE14717C560032CF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2BBA4A0014717C560032CF49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BBA4A0214717C560032CF49 /* MacRubySiri-Prefix.pch */ = {isa = PBXFileReference; path = "MacRubySiri-Prefix.pch"; sourceTree = "<group>"; };
+		2BBA4A0214717C560032CF49 /* MacRubySiri-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacRubySiri-Prefix.pch"; sourceTree = "<group>"; };
 		2BBA4A0514717C560032CF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2BBA4A0814717C560032CF49 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		2BBA4A0A14717C560032CF49 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		2BBA4A1414717D2D0032CF49 /* Aaron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aaron.jpg; sourceTree = "<group>"; };
+		2BBA4A1514717D2D0032CF49 /* Chad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chad.jpg; sourceTree = "<group>"; };
+		2BBA4A1614717D2D0032CF49 /* Hampton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hampton.jpg; sourceTree = "<group>"; };
+		2BBA4A1714717D2D0032CF49 /* Leah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Leah.jpg; sourceTree = "<group>"; };
+		2BBA4A1814717D2D0032CF49 /* Matz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Matz.jpg; sourceTree = "<group>"; };
+		2BBA4A1914717D2D0032CF49 /* menu-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-logo.png"; sourceTree = "<group>"; };
+		2BBA4A1A14717D2D0032CF49 /* Rich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rich.jpg; sourceTree = "<group>"; };
+		2BBA4A1B14717D2D0032CF49 /* ruby-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ruby-logo.png"; sourceTree = "<group>"; };
+		2BBA4A1C14717D2D0032CF49 /* ruby.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ruby.icns; sourceTree = "<group>"; };
+		2BBA4A1D14717D2D0032CF49 /* Sansonetti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sansonetti.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,16 @@
 		2BBA4A0314717C560032CF49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2BBA4A1414717D2D0032CF49 /* Aaron.jpg */,
+				2BBA4A1514717D2D0032CF49 /* Chad.jpg */,
+				2BBA4A1614717D2D0032CF49 /* Hampton.jpg */,
+				2BBA4A1714717D2D0032CF49 /* Leah.jpg */,
+				2BBA4A1814717D2D0032CF49 /* Matz.jpg */,
+				2BBA4A1914717D2D0032CF49 /* menu-logo.png */,
+				2BBA4A1A14717D2D0032CF49 /* Rich.jpg */,
+				2BBA4A1B14717D2D0032CF49 /* ruby-logo.png */,
+				2BBA4A1C14717D2D0032CF49 /* ruby.icns */,
+				2BBA4A1D14717D2D0032CF49 /* Sansonetti.jpg */,
 				2BBA4A0414717C560032CF49 /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -188,6 +218,16 @@
 				2BBA4A0614717C560032CF49 /* MainMenu.xib in Resources */,
 				2BBA4A0914717C560032CF49 /* rb_main.rb in Resources */,
 				2BBA4A0B14717C560032CF49 /* AppDelegate.rb in Resources */,
+				2BBA4A1E14717D2D0032CF49 /* Aaron.jpg in Resources */,
+				2BBA4A1F14717D2D0032CF49 /* Chad.jpg in Resources */,
+				2BBA4A2014717D2D0032CF49 /* Hampton.jpg in Resources */,
+				2BBA4A2114717D2D0032CF49 /* Leah.jpg in Resources */,
+				2BBA4A2214717D2D0032CF49 /* Matz.jpg in Resources */,
+				2BBA4A2314717D2D0032CF49 /* menu-logo.png in Resources */,
+				2BBA4A2414717D2D0032CF49 /* Rich.jpg in Resources */,
+				2BBA4A2514717D2D0032CF49 /* ruby-logo.png in Resources */,
+				2BBA4A2614717D2D0032CF49 /* ruby.icns in Resources */,
+				2BBA4A2714717D2D0032CF49 /* Sansonetti.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
