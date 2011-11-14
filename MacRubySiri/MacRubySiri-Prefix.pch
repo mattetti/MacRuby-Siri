@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MacRubySiri' target in the 'MacRubySiri' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

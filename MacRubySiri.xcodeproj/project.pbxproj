@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBA49F414717C560032CF49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA49F314717C560032CF49 /* Cocoa.framework */; };
+		2BBA49F614717C560032CF49 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA49F514717C560032CF49 /* MacRuby.framework */; };
+		2BBA49FF14717C560032CF49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA49FD14717C560032CF49 /* InfoPlist.strings */; };
+		2BBA4A0114717C560032CF49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA4A0014717C560032CF49 /* main.m */; };
+		2BBA4A0614717C560032CF49 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A0414717C560032CF49 /* MainMenu.xib */; };
+		2BBA4A0914717C560032CF49 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A0814717C560032CF49 /* rb_main.rb */; };
+		2BBA4A0B14717C560032CF49 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4A0A14717C560032CF49 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BBA49F814717C560032CF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBA49E614717C560032CF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBA49EE14717C560032CF49;
+			remoteInfo = MacRubySiri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BBA49EF14717C560032CF49 /* MacRubySiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRubySiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA49F314717C560032CF49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2BBA49F514717C560032CF49 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		2BBA49FC14717C560032CF49 /* MacRubySiri-Info.plist */ = {isa = PBXFileReference; path = "MacRubySiri-Info.plist"; sourceTree = "<group>"; };
+		2BBA49FE14717C560032CF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BBA4A0014717C560032CF49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BBA4A0214717C560032CF49 /* MacRubySiri-Prefix.pch */ = {isa = PBXFileReference; path = "MacRubySiri-Prefix.pch"; sourceTree = "<group>"; };
+		2BBA4A0514717C560032CF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2BBA4A0814717C560032CF49 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		2BBA4A0A14717C560032CF49 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBA49EC14717C560032CF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA49F414717C560032CF49 /* Cocoa.framework in Frameworks */,
+				2BBA49F614717C560032CF49 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBA49E414717C560032CF49 = {
+			isa = PBXGroup;
+			children = (
+				2BBA49FA14717C560032CF49 /* MacRubySiri */,
+				2BBA49F214717C560032CF49 /* Frameworks */,
+				2BBA49F014717C560032CF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBA49F014717C560032CF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA49EF14717C560032CF49 /* MacRubySiri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBA49F214717C560032CF49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA49F314717C560032CF49 /* Cocoa.framework */,
+				2BBA49F514717C560032CF49 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BBA49FA14717C560032CF49 /* MacRubySiri */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA4A0A14717C560032CF49 /* AppDelegate.rb */,
+				2BBA4A0314717C560032CF49 /* Resources */,
+				2BBA4A0714717C560032CF49 /* Other Sources */,
+				2BBA49FB14717C560032CF49 /* Supporting Files */,
+			);
+			path = MacRubySiri;
+			sourceTree = "<group>";
+		};
+		2BBA49FB14717C560032CF49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA49FC14717C560032CF49 /* MacRubySiri-Info.plist */,
+				2BBA49FD14717C560032CF49 /* InfoPlist.strings */,
+				2BBA4A0014717C560032CF49 /* main.m */,
+				2BBA4A0214717C560032CF49 /* MacRubySiri-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BBA4A0314717C560032CF49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA4A0414717C560032CF49 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2BBA4A0714717C560032CF49 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA4A0814717C560032CF49 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		2BBA49F714717C560032CF49 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 2BBA4A1114717C560032CF49 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				2BBA49F914717C560032CF49 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		2BBA49EE14717C560032CF49 /* MacRubySiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA4A0E14717C560032CF49 /* Build configuration list for PBXNativeTarget "MacRubySiri" */;
+			buildPhases = (
+				2BBA49EB14717C560032CF49 /* Sources */,
+				2BBA49EC14717C560032CF49 /* Frameworks */,
+				2BBA49ED14717C560032CF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacRubySiri;
+			productName = MacRubySiri;
+			productReference = 2BBA49EF14717C560032CF49 /* MacRubySiri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBA49E614717C560032CF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2BBA49E914717C560032CF49 /* Build configuration list for PBXProject "MacRubySiri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BBA49E414717C560032CF49;
+			productRefGroup = 2BBA49F014717C560032CF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBA49EE14717C560032CF49 /* MacRubySiri */,
+				2BBA49F714717C560032CF49 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBA49ED14717C560032CF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA49FF14717C560032CF49 /* InfoPlist.strings in Resources */,
+				2BBA4A0614717C560032CF49 /* MainMenu.xib in Resources */,
+				2BBA4A0914717C560032CF49 /* rb_main.rb in Resources */,
+				2BBA4A0B14717C560032CF49 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBA49EB14717C560032CF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA4A0114717C560032CF49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBA49F914717C560032CF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBA49EE14717C560032CF49 /* MacRubySiri */;
+			targetProxy = 2BBA49F814717C560032CF49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BBA49FD14717C560032CF49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBA49FE14717C560032CF49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BBA4A0414717C560032CF49 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBA4A0514717C560032CF49 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BBA4A0C14717C560032CF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2BBA4A0D14717C560032CF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BBA4A0F14717C560032CF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacRubySiri/MacRubySiri-Prefix.pch";
+				INFOPLIST_FILE = "MacRubySiri/MacRubySiri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BBA4A1014717C560032CF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacRubySiri/MacRubySiri-Prefix.pch";
+				INFOPLIST_FILE = "MacRubySiri/MacRubySiri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2BBA4A1214717C560032CF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2BBA4A1314717C560032CF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBA49E914717C560032CF49 /* Build configuration list for PBXProject "MacRubySiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA4A0C14717C560032CF49 /* Debug */,
+				2BBA4A0D14717C560032CF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBA4A0E14717C560032CF49 /* Build configuration list for PBXNativeTarget "MacRubySiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA4A0F14717C560032CF49 /* Debug */,
+				2BBA4A1014717C560032CF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BBA4A1114717C560032CF49 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA4A1214717C560032CF49 /* Debug */,
+				2BBA4A1314717C560032CF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBA49E614717C560032CF49 /* Project object */;
+}
